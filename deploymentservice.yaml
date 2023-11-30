@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: mahadishohag/devops-integration:${IMAGE_TAG} # Image that will be used to containers in the cluster
+          image: mahadishohag/devops-integration:44 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
